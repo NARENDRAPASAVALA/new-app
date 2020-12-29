@@ -32,7 +32,7 @@ import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
+    // MainComponent,
     HomeComponent,
     AboutComponent,
     ImageComponent,
@@ -40,12 +40,12 @@ import { LoginComponent } from './login/login.component';
     CodeGenerateComponent,
     SpinComponent,
     WinnerComponent,
-    SignupComponent,
-    LandingComponent,
-    ProfileComponent,
-    NavbarComponent,
-    FooterComponent,
-    LoginComponent
+    // SignupComponent,
+    // LandingComponent,
+    // ProfileComponent,
+    // NavbarComponent,
+    // FooterComponent,
+    // LoginComponent
   ],
   imports: [
     BrowserModule,

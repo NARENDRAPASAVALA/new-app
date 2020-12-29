@@ -7,14 +7,14 @@ import { Router } from '@angular/router';
     styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-    test : Date = new Date();
+    // test : Date = new Date();
 
     constructor(private router: Router ) {}
 
     ngOnInit() {
 
     }
-    getPath(){
-      return this.router.url;
-    }
+    // getPath(){
+    //   return this.router.url;
+    // }
 }
