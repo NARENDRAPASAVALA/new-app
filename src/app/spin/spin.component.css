@@ -1,0 +1,86 @@
+/* .jumbotron  {
+    background-color: blue;
+}
+.heading {
+    color: white;
+}
+.paragraph {
+    color: white;
+} */
+
+
+.slotwrapper {
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: -30px;
+    height: 80px;
+    padding-top: 3px;
+}
+.slotwrapper ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+.slotwrapper ul {
+    width: 63px;
+    height:30px;
+    font-size: 200px;
+    line-height: 20px;
+    text-align: center;
+}
+.slotwrapper ul li img {
+    vertical-align: top;
+    padding-top: 6px;
+}
+
+.panel {
+    margin-top: -206px;
+}
+
+.spin-wheel {
+    padding-left: 70pt;
+}
+/* .spin {
+    width: 120pt;
+    height: 42pt;
+    border-radius: 4pt;
+    background-color: rgb(255, 222, 0);
+    letter-spacing: 1.6pt;
+} */
+
+/* #btn-example6 {
+    width: 120pt;
+    margin-top: 90px;
+    height: 42pt;
+    border-radius: 4pt;
+    background-color: rgb(255, 222, 0);
+    letter-spacing: 1.6pt; 
+    color: #000; 
+} */
+
+@media only screen and (max-width: 414px) {
+    .slotwrapper {
+        margin-left: -15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .slotwrapper {
+        margin-left: 22px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .slotwrapper {
+        margin-left: 78px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .slotwrapper {
+        margin-left: 0px;
+    }
+}

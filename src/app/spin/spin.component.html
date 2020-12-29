@@ -1,0 +1,122 @@
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="jumbotron text-center">
+            <img src="../../assets/home/Image 22.png">
+
+            <div class="heading">
+                <h2>Spin & Win</h2>
+            </div>
+            <div class="paragraph">
+                <p>Click the ‘Spin’ button to find out if <br>you have won</p>
+            </div>
+            <hr>
+            <div class="image">
+                <img src="../../assets/spin/Group 2123.png">
+                <div class="panel">
+                    <div class="slotwrapper" id="example6">
+                        <ul>
+                            <li style="margin-left: -12px;"><img src="../../assets/spin/Image 14.png"></li>
+                            <li style="margin-left: -12px;"><img src="../../assets/spin/Image 14.png"></li>
+                            <li style="margin-left: -12px;"><img src="../../assets/spin/Image 14.png"></li>
+                        </ul>
+                        <ul>
+                            <li><img src="../../assets/spin/Image 25.png"></li>
+                            <li><img src="../../assets/spin/Image 14.png"></li>
+                            <li><img src="../../assets/spin/Image 14.png"></li>
+                            <li><img src="../../assets/spin/Image 14.png"></li>
+                            <li class="text-danger"><img src="../../assets/spin/Image 14.png"></li>
+                        </ul>
+                        <ul>
+                            <li><img src="../../assets/spin/Image 26.png"></li>
+                            <li><img src="../../assets/spin/Image 14.png"></li>
+                            <li><img src="../../assets/spin/Image 14.png"></li>
+                            <li><img src="../../assets/spin/Image 14.png"></li>
+                            <li><img src="../../assets/spin/Image 14.png"></li>
+                            <li class="text-danger"><img src="../../assets/spin/Image 14.png"></li>
+                        </ul>
+                    <div>
+                </div>
+                <script type="text/javascript">
+                    $('#btn-example6').click(function() {
+                        var num1 = $('#example6 ul').val();
+                        var num2 = $('#example6 ul').val();
+                        var num3 = $('#example6 ul').val();
+                        $('#example6 ul').playSpin({
+                            endNum: [0 ,2, 3],
+                        });
+                    });
+                </script>
+            </div>
+           
+            <div class="button"  *ngIf="!showMainContent">
+                <button type="button" class="btn btn-success btn-lg" id="btn-example6" (click)="spin()">SPIN</button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<main>
+    <div class="position-relative">
+        <section class="section section-lg section-hero section-shaped">
+            <div class="shape shape-style-1 shape-primary">
+                <!--        <span class="span-150"></span>-->
+                <!--        <span class="span-50"></span>-->
+                <!--        <span class="span-50"></span>-->
+                <!--        <span class="span-75"></span>-->
+                <!--        <span class="span-100"></span>-->
+                <!--        <span class="span-75"></span>-->
+                <!--        <span class="span-50"></span>-->
+                <!--        <span class="span-100"></span>-->
+                <!--        <span class="span-50"></span>-->
+                <!--        <span class="span-100"></span>-->
+            </div>
+            <div class="container shape-container d-flex align-items-center py-lg" style="padding-top: 0.5rem !important;">
+                <div class="col px-0">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <img src="./assets/home/Image 22.png" style="width: 196px;height: 74px;" class="img-fluid">
+                            <div class="margin-top-90"></div>
+                            <h3 class="ninito text-white font-24 font-weight-bold">Spin & Win</h3>
+                            <p class="font-16 text-white">Click the ‘Spin’ button to find out if you have won</p>
+                            <hr>
+                            <img src="../../assets/spin/Group 2123.png" style="height: 356px; width: 400px;">
+                            <div class="panel">
+                                <div class="slotwrapper" id="example6">
+                                    <ul>
+                                        <li style="margin-left: -12px;"><img src="../../assets/spin/Image 14.png"></li>
+                                        <li style="margin-left: -12px;"><img src="../../assets/spin/Image 14.png"></li>
+                                        <li style="margin-left: -12px;"><img src="../../assets/spin/Image 14.png"></li>
+                                    </ul>
+                                    <ul>
+                                        <li><img src="../../assets/spin/Image 25.png"></li>
+                                        <li><img src="../../assets/spin/Image 14.png"></li>
+                                        <li><img src="../../assets/spin/Image 14.png"></li>
+                                        <li><img src="../../assets/spin/Image 14.png"></li>
+                                        <li class="text-danger"><img src="../../assets/spin/Image 14.png"></li>
+                                    </ul>
+                                    <ul>
+                                        <li><img src="../../assets/spin/Image 26.png"></li>
+                                        <li><img src="../../assets/spin/Image 14.png"></li>
+                                        <li><img src="../../assets/spin/Image 14.png"></li>
+                                        <li><img src="../../assets/spin/Image 14.png"></li>
+                                        <li><img src="../../assets/spin/Image 14.png"></li>
+                                        <li class="text-danger"><img src="../../assets/spin/Image 14.png"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <div class="btn-wrapper mt-5">
+                                  <a href="#" class="btn btn-lg  btn-padding btn-yellow btn-icon mb-3 mb-sm-0" style="text-transform: inherit !important;">
+                                    <span class="btn-inner--text text-black font-weight-bold" id="btn-example6" (click)="spin()">Spin</span>
+                                  </a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <app-sections></app-sections>
+</main>
