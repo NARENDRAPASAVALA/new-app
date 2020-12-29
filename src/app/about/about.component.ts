@@ -7,6 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+   public overlayShown = false;
+   scrollPosition = 0;
+
   constructor(private router: Router) { }
 
   ngOnInit() {

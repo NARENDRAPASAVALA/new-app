@@ -10,6 +10,8 @@ export class SpinComponent implements OnInit {
  public isShow = false;
  showMainContent: boolean;
   public data: [1];
+  public  toggle1= true;
+public toggle =true;
   constructor(private router: Router) { this.showMainContent = false; console.log(this) }
 
   ngOnInit() {
@@ -211,6 +213,10 @@ export class SpinComponent implements OnInit {
   }
 
     spin() {
+        this.toggle1 = !this.toggle1;
+        if(this.toggle1) {
+            this.toggle = !this.toggle;
+        }
         $('#btn-example6').click(function() {
             var num1 = $('#example6 ul').val();
             var num2 = $('#example6 ul').val();

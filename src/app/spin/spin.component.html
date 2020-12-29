@@ -58,7 +58,7 @@
 
 <main>
     <div class="position-relative">
-        <section class="section section section-hero section-shaped">
+        <section class="section section section-hero section-shaped" style="padding-top: 0px;">
             <div class="shape shape-style-1 shape-primary">
                 <!--        <span class="span-150"></span>-->
                 <!--        <span class="span-50"></span>-->
@@ -77,9 +77,9 @@
                         <div class="col-lg-6 text-center">
                             <img src="./assets/home/Image 22.png" style="width: 196px;height: 74px;" class="img-fluid">
                             <!-- <div class="margin-top-90"></div> -->
-                            <h3 class="ninito text-white font-24 font-weight-bold">Spin & Win</h3>
-                            <p class="font-16 text-white">Click the ‘Spin’ button to find out if you have won</p>
-                            <hr>
+                            <h3 class="ninito text-white font-24 font-weight-bold" style="text-transform: uppercase;">Spin & Win</h3>
+                            <p class="font-16 text-white">Click the ‘Spin’ button to find out if <br> you have won</p>
+                            <hr  style="border: solid 1px rgb(255,255,255);">
                             <img src="../../assets/spin/Group 2123.png" style="height: 356px; width: 400px;">
                             <div class="panel">
                                 <div class="slotwrapper" id="example6">
@@ -96,7 +96,7 @@
                                         <li class="text-danger"><img src="../../assets/spin/Image 14.png"></li>
                                     </ul>
                                     <ul>
-                                        <li><img src="../../assets/spin/Image 26.png"></li>
+                                        <li><img style="height: 80px;" src="../../assets/spin/Image 26.png"></li>
                                         <li><img src="../../assets/spin/Image 14.png"></li>
                                         <li><img src="../../assets/spin/Image 14.png"></li>
                                         <li><img src="../../assets/spin/Image 14.png"></li>
@@ -107,7 +107,8 @@
                             </div>
                             <div class="col-lg-6 text-center">
                                 <div class="btn-wrapper mt-5">
-                                  <a  class="btn btn-lg  btn-padding btn-yellow btn-icon mb-3 mb-sm-0" style="text-transform: inherit !important;" id="btn-example6" (click)="spin()">
+                                  <a  class="btn btn-lg  btn-padding btn-yellow btn-icon mb-3 mb-sm-0" style="text-transform: inherit !important;" id="btn-example6" (click)="spin()"
+                                  [ngClass]="{'yellow': toggle, 'white': !toggle}">
                                     <span class="btn-inner--text text-black font-weight-bold">SPIN</span>
                                   </a>
                                 </div>
