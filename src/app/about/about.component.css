@@ -60,7 +60,7 @@ label {
     float:left;
 }
 
-#donate1 label {
+#donate1 .label-for-check {
     float:left;
     width:170px;
     height: 105px;
@@ -72,7 +72,7 @@ label {
        
 }
 
-#donate1 label span {
+#donate1 .label-for-check span {
     text-align:center;
     /* background-color: blue; */
     font-size: 14px;
@@ -80,26 +80,32 @@ label {
     display:block;
 }
 
-#donate1 label input {
+#donate1 .label-for-check input {
     position:absolute;
     margin-top: 16px;
     margin-left: 10px;
     display: block;
 }
 
-/* #donate1 input:checked + img +span {
-    background-color:  rgb(98, 13, 131);
+/* #donate1 label input:checked + img +span {
+    background-color: rgb(13, 72, 131);
     color:#F7F7F7;
+    box-sizing:initial;
 }
+
 #donate1 input:checked +img  {
-    background-color:  rgb(131, 13, 39);
+    background-color:  rgb(13, 72, 131);
     color:#F7F7F7;
 }
-#donate1 input:checked + .toggle  {
+#donate1 input:checked + label  {
     background-color:  rgb(13, 131, 39);
     color:#F7F7F7;
 } */
-
+.check-with-label:checked + .label-for-check {
+    /* font-weight: bold; */
+      background-color:  rgb(13, 72, 131);
+    color:#F7F7F7;
+  }
 #donate2 {
     margin:4px;
     float:left;
