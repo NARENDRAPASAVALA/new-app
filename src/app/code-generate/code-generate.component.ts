@@ -27,7 +27,7 @@ export class CodeGenerateComponent implements OnInit {
     this.selectedValue = star;
     console.log('Value of star', star);
   }
-  public Next() {
+  public next() {
     this.router.navigate(['/spin'])
   }
 

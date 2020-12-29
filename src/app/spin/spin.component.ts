@@ -196,7 +196,9 @@ export class SpinComponent implements OnInit {
             startSeqs['mainSeq' + track.mainSeq]['totalSpinning']--;
             startSeqs['mainSeq' + track.mainSeq]['subSeq' + track.subSeq]['endNum'] = endNum;
             // this.routing();
-            window.location.href = window.location.origin + `/#/winner`;
+            setTimeout(() => {
+                window.location.href = window.location.origin + `/#/winner`;
+            },2000)
         }
     
         slot.randomRange = function (low, high) {

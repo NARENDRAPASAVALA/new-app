@@ -18,7 +18,7 @@ export class AboutComponent implements OnInit {
     // });
   }
 
-  public about() {
+  public next() {
     this.router.navigate(['/image'])
   }
 }

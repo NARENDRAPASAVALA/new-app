@@ -11,9 +11,9 @@ import { HomeComponent} from './home/home.component';
 
 
 const routes: Routes = [
-    { path: '', redirectTo: '/home',  pathMatch: 'full' },
+    // { path: '', redirectTo: '/home',  pathMatch: 'full' },
     { path: 'home', component: HomeComponent, pathMatch: 'full' },
-    { path: 'main', component: MainComponent, pathMatch: 'full' },
+    // { path: 'main', component: MainComponent, pathMatch: 'full' },
     { path: 'about', component: AboutComponent },
     { path: 'image', component: ImageComponent},
     { path: 'crop_image', component: CropImageComponent},

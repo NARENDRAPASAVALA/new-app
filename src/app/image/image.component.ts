@@ -82,6 +82,6 @@ export class ImageComponent implements OnInit {
 // }
 
   public next() {
-    this.router.navigate(['/code_generate'])
+    this.router.navigate(['/crop_image'])
   }
 }

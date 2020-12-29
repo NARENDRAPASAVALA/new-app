@@ -13,7 +13,10 @@ export class CropImageComponent implements OnInit {
   ngOnInit() {
   }
 
-  public Next() {
+  public retake() {
+    this.router.navigate(['/image'])
+  }
+  public next() {
     this.router.navigate(['/code_generate'])
   }
 }
