@@ -103,11 +103,25 @@ label {
     color:#F7F7F7;
 } */
 #button {
-    text-transform: inherit !important;width: 348px;margin-top: 300px;margin-left: -50px;
+    text-transform: inherit !important;
+    width: 348px;
+    margin-top: 300px;
+    margin-left: -50px;
+    /* margin-left: -198px;
+    position: fixed;
+    visibility: visible; */
 }
 @media only screen and (min-width: 414px) {
     #button {
         margin-top: 250px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #button {
+        margin-top: 250px;
+        margin-left: -198px;
+        position: fixed;
+        visibility:visible;
     }
 }
 .check-with-label:checked + .label-for-check {
