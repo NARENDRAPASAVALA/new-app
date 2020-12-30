@@ -5,11 +5,6 @@
     height: 62pt;
     border: 1px solid rgb(255, 255, 255);
 }
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
-  }
 .location p {
     margin-top: 20px;
     font-size: 16px;
@@ -28,7 +23,6 @@ label {
     float:left;
     width:170px;
     margin:4px;
-    /* background-color: blue; */
     border-radius:4px;
     border:1px solid #D0D0D0;
     overflow:auto;
@@ -37,7 +31,6 @@ label {
 
 #donate label span {
     text-align:center;
-    /* background-color: blue; */
     font-size: 14px;
     padding:13px 0px;
     display:block;
@@ -56,7 +49,6 @@ label {
 }
 
 #donate1 {
-    /* margin:4px; */
     float:left;
 }
 
@@ -65,16 +57,12 @@ label {
     width:170px;
     height: 105px;
     margin:4px;
-    /* background-color: blue; */
     border-radius:4px;
     border:1px solid #D0D0D0;
-    /* overflow:auto; */
-       
 }
 
 #donate1 .label-for-check span {
     text-align:center;
-    /* background-color: blue; */
     font-size: 14px;
     padding:11px 0px;
     display:block;
@@ -87,40 +75,27 @@ label {
     display: block;
 }
 
-/* #donate1 label input:checked + img +span {
-    background-color: rgb(13, 72, 131);
-    color:#F7F7F7;
-    box-sizing:initial;
-} */
-
-/* #donate1 input:checked +img  {
-    background-color:  rgb(13, 72, 131);
-    color:#F7F7F7;
-    border: 3px solid rgb(13, 72, 131);
-} */
-/* #donate1 input:checked + label  {
-    background-color:  rgb(13, 131, 39);
-    color:#F7F7F7;
-} */
 #button {
     text-transform: inherit !important;
     width: 348px;
     margin-top: 300px;
     margin-left: -50px;
-    /* margin-left: -198px;
-    position: fixed;
-    visibility: visible; */
 }
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 414px)  ,  (orientation: 731px) {
     #button {
         margin-top: 276px;
         margin-left: -58px;
     }
 }
-@media only screen and (max-width: 411px) {
-   
+
+@media only screen and (min-width: 411px) , (orientation: 823px) {
     #button {
         margin-top: 342px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #button {
+        margin-left: -414px;
     }
 }
 @media only screen and (max-width: 375px) {
@@ -156,41 +131,33 @@ label {
   }
 }
 .check-with-label:checked + .label-for-check {
-    /* font-weight: bold; */
-      background-color:  rgb(11, 58, 105);
+    background-color:  rgb(11, 58, 105);
     color:#F7F7F7;
-  }
+}
 #donate2 {
     margin:4px;
     float:left;
 }
-
 #donate2 label {
     float:left;
     width:170px;
     margin:4px;
-    /* background-color: blue; */
     border-radius:4px;
     border:1px solid #D0D0D0;
     overflow:auto;
-       
 }
-
 #donate2 label span {
     text-align:center;
-    /* background-color: blue; */
     font-size: 14px;
     padding:13px 0px;
     display:block;
 }
-
 #donate2 label input {
     position:absolute;
     margin-top: 16px;
     margin-left: 148px;
     display: block;
 }
-
 #donate2 input:checked + span {
     background-color: rgb(12 49 87);
     color:#F7F7F7;
