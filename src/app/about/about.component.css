@@ -91,19 +91,20 @@ label {
     background-color: rgb(13, 72, 131);
     color:#F7F7F7;
     box-sizing:initial;
-}
+} */
 
-#donate1 input:checked +img  {
+/* #donate1 input:checked +img  {
     background-color:  rgb(13, 72, 131);
     color:#F7F7F7;
-}
-#donate1 input:checked + label  {
+    border: 3px solid rgb(13, 72, 131);
+} */
+/* #donate1 input:checked + label  {
     background-color:  rgb(13, 131, 39);
     color:#F7F7F7;
 } */
 .check-with-label:checked + .label-for-check {
     /* font-weight: bold; */
-      background-color:  rgb(13, 72, 131);
+      background-color:  rgb(11, 58, 105);
     color:#F7F7F7;
   }
 #donate2 {
@@ -141,3 +142,4 @@ label {
     background-color: rgb(12 49 87);
     color:#F7F7F7;
 }
+
