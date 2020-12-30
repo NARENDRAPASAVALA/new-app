@@ -102,6 +102,14 @@ label {
     background-color:  rgb(13, 131, 39);
     color:#F7F7F7;
 } */
+#button {
+    text-transform: inherit !important;width: 348px;margin-top: 300px;margin-left: -50px;
+}
+@media only screen and (min-width: 414px) {
+    #button {
+        margin-top: 250px;
+    }
+}
 .check-with-label:checked + .label-for-check {
     /* font-weight: bold; */
       background-color:  rgb(11, 58, 105);
