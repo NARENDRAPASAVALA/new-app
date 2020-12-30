@@ -1,36 +1,5 @@
-/* .jumbotron  {
-    background-color: blue;
+@media only screen and (min-width: 1024px) {
+    .mt-5 {
+        margin-left: 80px;
+    }
 }
-.heading {
-    color: white;
-}
-.paragraph {
-    color: white;
-}
-
-button {
-    width: 160pt;
-    margin-top: 10px;
-    height: 42pt;
-    background-color: white;
-    border-radius: 4pt;
-    font-size: 12pt;
-    color: blue;
-}
- p {
-     color: white;
- }
-
- h3 {
-     color: white;
- }
-
-.fa-facebook-square {
-    color: blue;
-}
-
-.rating {
-    font-size: 38pt;
-    height: 36.3pt;
-}
-  */

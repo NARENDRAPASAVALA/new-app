@@ -1,29 +1,17 @@
-/* .jumbotron  {
-    background-color: blue;
-}
-.heading {
-    color: white;
-}
-.paragraph {
-    color: white;
+#button {
+    text-transform: inherit !important;
+    width: 388px;
+    margin-left: -16px;  
 }
 
-.rating {
-    font-size: 38pt;
-    height: 36.3pt;
-}
-.image p {
-    margin-top: 90px;
-    color: white;
+@media only screen and (max-width: 375px) {
+    #button {
+       width: 346px;
+    }
 }
 
-button {
-    width: 300pt;
-    margin-top: 60px;
-    height: 42pt;
-    background-color: rgb(255, 222, 0);
-    border-radius: 4pt;
-    font-size: 12pt;
-    color: black;
+@media only screen and (min-width: 1024px) {
+    #button {
+        margin-left: 35px;
+    }
 }
- */

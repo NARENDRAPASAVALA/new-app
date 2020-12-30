@@ -56,7 +56,7 @@ label {
 }
 
 #donate1 {
-    margin:4px;
+    /* margin:4px; */
     float:left;
 }
 
@@ -114,20 +114,46 @@ label {
 @media only screen and (min-width: 414px) {
     #button {
         margin-top: 276px;
+        margin-left: -58px;
     }
 }
-@media only screen and (min-width: 411px) {
+@media only screen and (max-width: 411px) {
+   
     #button {
-        margin-top: 276px;
+        margin-top: 342px;
     }
 }
 @media only screen and (max-width: 375px) {
+    #donate1 {
+        margin-left: -15px;
+        float: left;
+    }
+    .location {
+        width: 252pt;
+    }
     #button {
-        margin-top: 250px;
+        margin-top: 175px;
         margin-left: -198px;
         position: fixed;
         visibility:visible;
     }
+}
+
+@media only screen and (min-width: 1024px) {
+    #button {
+        margin-top: 245px;
+        margin-left: -332px;
+        position: fixed;
+        visibility:visible;
+    }
+}
+@media only screen and (max-width: 360px) {
+  #donate1 {
+      margin-left: -26px;
+  }
+  #button {
+      margin-left: -190px;
+  }
 }
 .check-with-label:checked + .label-for-check {
     /* font-weight: bold; */
