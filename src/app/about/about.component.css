@@ -104,20 +104,32 @@ hr{
 
 @media only screen and (max-width: 411px) , (orientation: 823px) {
     .location {
-        height: 70pt;
+        height: 75pt;
     }
     #age {
-        margin-top: 22pt;
+        margin-top: 23pt;
     }
     #drink {
-        margin-top: 158px;
+        margin-top: 159px;
     }
     #button {
-        margin-top: 295px;
-        margin-left: -56px;
+        width: 352px;
+        margin-top: 297px;
+        margin-left: -39px;
+    }
+    #donate1 .label-for-check {
+        width: 172px;
+        margin-left: 8px;
+    }
+    #donate2 label {
+        width: 173px !important;
+    } 
+    #donate label {
+        width: 174px;
     }
     hr{
         margin-top: 3rem !important; 
+        margin-right: 25px;
     }
 }
 @media only screen and (min-width: 768px) {
