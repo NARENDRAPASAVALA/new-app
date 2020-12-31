@@ -1,0 +1,18 @@
+#button {
+    text-transform: inherit !important;
+    width: 378px;
+    margin-left: -4px;
+    margin-top: -32px;
+}
+
+@media only screen and (max-width: 375px) {
+    #button {
+       width: 335px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mt-5 {
+        margin-left: 80px;
+    }
+}
