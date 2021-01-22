@@ -25,9 +25,9 @@
                             <div>
                                 <div style="display: flex;">
                                     <p class="font-16 text-white" style="text-align: left;margin-left: 8px;">Your address :</p>
-                                    <img src="../../assets/about/Group 2125.png" style="width:46px;height:46px;text-align: right;margin-left: 212px;"/>
+                                    <img src="./assets/about/Group 2125.png" (click)="address()" style="width:46px;height:46px;text-align: right;margin-left: 212px;"/>
                                 </div>
-                                <div class="location">
+                                <div class="location" *ngIf="addressData">
                                     <p style="margin-left: -80px;"> #781, 17f, 3rd Main, 6th Block,<br>                              
                                             Koramangala, Bangalore - 560068.</p>
                                 </div>
@@ -52,21 +52,21 @@
                                         <label class="label">
                                             <input type="checkbox" class="check-with-label" id="idinput" style="margin-top: 15px;margin-left: -315px;" checked/>
                                             <label class="label-for-check" for="idinput">
-                                                <img src="../../assets/about/Image 1.png" style="padding-top: 20px;"><span> Sprite</span>
+                                                <img src="./assets/about/Image 1.png" style="padding-top: 20px;"><span> Sprite</span>
                                             </label>
                                         </label>
                                         <label class="label">
                                             <input type="checkbox" class="check-with-label" id="idinput2" style="margin-top: 15px;margin-left: -315px;" />
-                                            <label class="label-for-check"  for="idinput2"><img src="../../assets/about/Image 2.png" ><span> Red Bull</span></label>
+                                            <label class="label-for-check"  for="idinput2"><img src="./assets/about/Image 2.png" ><span> Red Bull</span></label>
                                         </label>
                                     <div>
                                         <label class="label">
                                             <input type="checkbox" class="check-with-label" id="idinput1" style="margin-top: 15px;margin-left: -315px;" />
-                                            <label class="label-for-check"  for="idinput1"><img src="../../assets/about/Image 23.png" style="padding-top: 12px;"><span> Mountain Dew</span></label>
+                                            <label class="label-for-check"  for="idinput1"><img src="./assets/about/Image 23.png" style="padding-top: 12px;"><span> Mountain Dew</span></label>
                                         </label>
                                         <label class="label">
                                             <input type="checkbox" class="check-with-label" id="idinput3" style="margin-top: 15px;margin-left: -315px;" checked />
-                                            <label class="label-for-check"  for="idinput3"><img src="../../assets/about/pepsi-logo@logotyp.us.png" style="padding-top: 20px;"><span> Pepsi</span></label>
+                                            <label class="label-for-check"  for="idinput3"><img src="./assets/about/pepsi-logo@logotyp.us.png" style="padding-top: 20px;"><span> Pepsi</span></label>
                                         </label>
                                     </div>
                                 </div>

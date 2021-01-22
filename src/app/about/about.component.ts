@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AboutComponent implements OnInit {
    public overlayShown = false;
+   public addressData : boolean = false;
    scrollPosition = 0;
 
   constructor(private router: Router) { }
@@ -19,6 +20,11 @@ export class AboutComponent implements OnInit {
     //     var place = autocomplete.getPlace();
     //     console.log(place.address_components);
     // });
+  }
+
+  public address() {
+    // console.log("inside the address");
+    this.addressData = true;
   }
 
   public next() {

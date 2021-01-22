@@ -198,9 +198,9 @@ public toggle =true;
             startSeqs['mainSeq' + track.mainSeq]['totalSpinning']--;
             startSeqs['mainSeq' + track.mainSeq]['subSeq' + track.subSeq]['endNum'] = endNum;
             // this.routing();
-            setTimeout(() => {
-                window.location.href = window.location.origin + `/#/winner`;
-            },2000)
+            // setTimeout(() => {
+            //     window.location.href = window.location.origin + `/#/winner`;
+            // },2000)
         }
     
         slot.randomRange = function (low, high) {
@@ -216,7 +216,11 @@ public toggle =true;
         this.toggle1 = !this.toggle1;
         if(this.toggle1) {
             this.toggle = !this.toggle;
+            setTimeout(() => {
+                this.router.navigate(['/winner']);
+            }, 6000);
         }
+
         $('#btn-example6').click(function() {
             var num1 = $('#example6 ul').val();
             var num2 = $('#example6 ul').val();
